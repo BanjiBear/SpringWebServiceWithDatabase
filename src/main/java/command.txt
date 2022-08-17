@@ -1,0 +1,5 @@
+curl -X POST localhost:8080/WebService/books -H "Content-type:application/json" -d "{\"book_name\": \"SpongeBob Square Pants\", \"author\": \"Mr. Kong the big Kong\", \"isbn\": \"0000000000002\", \"price\": \"255\", \"publish_date\": \"2015-10-11\"}"
+
+curl -X PUT localhost:8080/WebService/books/0000000000444 -H "Content-type:application/json" -d "{\"book_name\": \"I hate you\", \"author\": \"Banjibear\", \"isbn\" : \"0000000000444\", \"price\" : \"330\", \"publish_date\" : \"1990-04-05\"}"
+
+curl -X DELETE localhost:8080/WebService/books
